@@ -17,6 +17,7 @@ html{
 }
 #root{
   height: fit-content;
+  overflow-x: clip;
 }
 
 body {
