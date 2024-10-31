@@ -42,12 +42,12 @@ const RecentProjects = () => {
                                 />
                             </div>
 
-                            <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1 px-[5px] xs:px-0">
+                            <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1 px-[5px] xs:px-[10px]">
                                 {item.title}
                             </h1>
 
                             <p
-                                className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2 px-[5px] xs:px-0"
+                                className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2 px-[5px] xs:px-[10px]"
                                 style={{
                                     color: "#BEC1DD",
                                     margin: "1vh 0",
@@ -56,7 +56,7 @@ const RecentProjects = () => {
                                 {item.des}
                             </p>
 
-                            <div className="flex items-center justify-between mt-7 mb-3 px-[5px] xs:px-0">
+                            <div className="flex items-center justify-between mt-7 mb-3 px-[5px] xs:px-[10px]">
                                 <div className="flex items-center">
                                     {item.iconLists.map((icon, index) => (
                                         <div
